@@ -49,6 +49,7 @@ Dive/
 │ ├── main.py # Archivo principal que ejecuta el juego
 │ ├── mode.py # Configuraciones principales para el juego
 │ └── object.py # Configuracion y representación de los objetos (queso y obstaculos)
+'''
 
 ## 🚀 Requisitos
 
