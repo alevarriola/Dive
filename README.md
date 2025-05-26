@@ -6,26 +6,26 @@ Dive es un proyecto educativo desarrollado en Python que simula un juego por tur
 Este proyecto fue creado con el propósito de comprender y practicar la implementación del algoritmo Minimax en un juego de adversarios. A través de diferentes versiones, se exploran mejoras y ajustes en la lógica del juego y la IA.
 ## 🕹️ Cómo Jugar
 
-    Ejecutar el juego:
-    Abre la terminal en la carpeta del proyecto y ejecuta:
+Ejecutar el juego:
+Abre la terminal en la carpeta del proyecto y ejecuta:
 
-    '''python main.py'''
+    python main.py
 
-    ### Configuración inicial:
+### Configuración inicial:
 
-        Elige el tamaño del mapa.
+    Elige el tamaño del mapa.
 
-        Decide si quieres jugar como gato o ratón.
+    Decide si quieres jugar como gato o ratón.
 
-        Selecciona el nivel de dificultad: fácil o difícil.
+    Selecciona el nivel de dificultad: fácil o difícil.
 
-        Opcionalmente, puedes configurar una partida entre dos IAs utilizando Minimax.
+    Opcionalmente, puedes configurar una partida entre dos IAs utilizando Minimax.
 
-    ### Reglas del juego:
+### Reglas del juego:
 
-        El ratón gana si llega al queso o si se agotan los turnos.
+    El ratón gana si llega al queso o si se agotan los turnos.
 
-        El gato gana si atrapa al ratón antes de que alcance el queso o se terminen los turnos.
+    El gato gana si atrapa al ratón antes de que alcance el queso o se terminen los turnos.
 
 ## 🧠 Inteligencia Artificial
 
@@ -40,16 +40,16 @@ El repositorio contiene varias versiones del juego, organizadas en carpetas:
     WorkShopAlgoritmoMinimax: Material adicional relacionado con el algoritmo Minimax.
 
 ## 📁 Estructura del Proyecto
-'''
-Dive/
-├── MousevsCat/ # Lógica del juego y clases principales
-│ ├── mousevscat.py # Clase principal del juego
-│ ├── players.py # Lógica de los jugadores (ratón y gato)
-│ ├── tablero.py # Configuracion y representación del tablero
-│ ├── main.py # Archivo principal que ejecuta el juego
-│ ├── mode.py # Configuraciones principales para el juego
-│ └── object.py # Configuracion y representación de los objetos (queso y obstaculos)
-'''
+
+    Dive/
+    ├── MousevsCat/ # Lógica del juego y clases principales
+    │ ├── mousevscat.py # Clase principal del juego
+    │ ├── players.py # Lógica de los jugadores (ratón y gato)
+    │ ├── tablero.py # Configuracion y representación del tablero
+    │ ├── main.py # Archivo principal que ejecuta el juego
+    │ ├── mode.py # Configuraciones principales para el juego
+    │ └── object.py # Configuracion y representación de los objetos (queso y obstaculos)
+
 
 ## 🚀 Requisitos
 
